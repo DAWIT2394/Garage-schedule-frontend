@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #010315;
+  }
+  
+  form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 2px;
+border-radius: 1rem;
+margin: 0 auto;
+
+
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #522828;
+    border-radius: 3rem;
+    background-color: burlywood;
+    margin: 0 auto;
+
+  }
+  .desc{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #522828;
+    border-radius: 3rem;
+    background-color: burlywood;
+    margin: 10px;
+  }
+  
+  
+  input {
+margin: 0 auto;
+
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #522828;
+  border-radius: 3rem;
+  margin: 10px;
+}
+
+  
+  .submit {
+    margin-top: 20px;
+  }
+  textarea{
+    text-align: center;
+   
+  }
+  select{
+    margin-left: 2rem;
+  }
+  .ra{
+    margin-right: 12rem;
+  }
+.hed{
+  background-image: url(https://images.unsplash.com/photo-1615906655593-ad0386982a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+  position: relative;
+  border-radius: 2rem;
+
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.h {
+  
+  font-size: 2rem;
+  color: rgb(169, 191, 169);
+  font-style: oblique;
+  font-weight: bold;
+}
+
+
+
+.logo{
+  margin-left: 35rem;
+  color: coral;
+
+}
+.he{
+  color: hsl(188, 93%, 37%);
+  font-weight: bold;
+  margin-right: 1px;
+  margin-left: 1rem;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+
+.btn2{
+  margin-right: 40rem;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 2rem;
+}
+.HE {
+  position: relative;
+  background-image: url(https://images.unsplash.com/photo-1613206485381-b028e578e791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  height: 500px;
+  animation: card-bounce 0.5s ease-in-out infinite;
+  color:rgb(160, 196, 44);
+font-size: 25px;
+font-weight: bold;
+
+border-radius: 2rem;
+}
+.head{
+  text-align: center;
+  color: antiquewhite;
+}
+.card-body{
+  margin-left: 15rem;
+
+}
+
+
+
+@keyframes card-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.HE:hover {
+  background-color: lightblue;
+}
+

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+.card-container{
+    max-width: 1300px;
+    width: 100%;
+    margin-top: 5rem;
+   
+  
+}
+.section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section,h1{
+    color: #ce420b;
+    text-align:center ;
+    font-style: normal;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.card{
+    flex: 0 0 calc(33.33% -20px);
+    max-width: calc(33.33% -20px);
+    width: 30%;
+    background-color: rgb(30, 153, 36);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 2px solid transparent;
+    box-shadow: 5px 10px 15px black;
+    
+
+}
+
+.btn2{
+    background-color: orange;
+    padding: 5px;
+    height: 40px;
+    margin-left: 12rem;
+    width: 80px;
+  }
+  .btn3{
+    background-color: orange;
+    padding: 5px;
+    height: 40px;
+    margin-left: 45rem;
+    width: 80px;
+    border-radius: 2rem;
+  }
+  .card:hover {
+    /* Add a transition to the background color */
+    transition: background-color .3s;
+  
+    /* When the card is hovered, change the background color to a lighter shade */
+    background-color: #6c9513;
+  }
+  
+  .card:hover .btn2 {
+    /* When the card is hovered, change the button color to a darker shade */
+    background-color: #d2750b;
+  }
+  
+  /* Add a cursor: pointer property to the button to make it clickable */
+  .btn2 {
+    cursor: pointer;
+  }
+  .search{
+
+margin-left: 50rem;
+height: 30px;
+width: 300px;
+margin-top: -6rem;
+}
+  .homebtn{
+    background-color: rgb(176, 143, 83);
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 2rem;
+
+  }
